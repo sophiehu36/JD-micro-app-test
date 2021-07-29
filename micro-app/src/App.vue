@@ -2,10 +2,10 @@
 	<div id="app">
 		<!-- <img alt="Vue logo" src="./assets/logo.png" />
 		<HelloWorld msg="Welcome to Your Vue.js App" /> -->
-    <div>
-       <router-link :to="{ name: 'micro-home' }">micro-home</router-link> |
-       <router-link :to="{ name: 'page2' }">page2</router-link>
-    </div>
+		<div>
+			<router-link :to="{ name: 'micro-page1' }">micro-page1</router-link> |
+			<router-link :to="{ name: 'micro-page2' }">micro-page2</router-link>
+		</div>
 		<router-view />
 	</div>
 </template>

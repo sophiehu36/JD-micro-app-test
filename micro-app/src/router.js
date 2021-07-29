@@ -6,17 +6,19 @@ Vue.use(VueRouter);
 const routes = [
 	{
 		path: "/",
-		redirect: "/micro-home/",
+		redirect: "/micro-page1/",
 	},
 	{
-		path: "/micro-home/*",
-		name: "micro-home",
-		component: () => import(/* webpackChunkName: "home" */ "./views/micro-home.vue"),
-  },
-  {
-		path: "/page2/*",
-		name: "page2",
-		component: () => import(/* webpackChunkName: "home" */ "./views/page2.vue"),
+		path: "/micro-page1/*",
+		name: "micro-page1",
+		component: () =>
+			import(/* webpackChunkName: "home" */ "./views/micro-page1.vue"),
+	},
+	{
+		path: "/micro-page2/*",
+		name: "micro-page2",
+		component: () =>
+			import(/* webpackChunkName: "home" */ "./views/micro-page2.vue"),
 	},
 ];
 

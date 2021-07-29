@@ -5,7 +5,8 @@ import routes from './router'
 import App from './App.vue'
 
 // microApp.preFetch([{name: 'react16', url: 'http://localhost:3001/'}])
-microApp.setData('page1', {type: '新的数据'})
+// 向指定子应用'page1'发送数据
+microApp.setData('page1', { type: '新的数据' })
 
 microApp.start({
   lifeCycles: {
