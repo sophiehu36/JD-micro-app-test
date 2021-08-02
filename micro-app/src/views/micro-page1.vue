@@ -17,7 +17,7 @@ export default {
 		};
 	},
 	mounted() {
-		console.log(window.microApp?.getData());
+		console.log(window.microApp.getData());
 	},
 	created() {
 		window.microApp &&
