@@ -9,13 +9,13 @@ const routes = [
 		redirect: "/micro-page1/",
 	},
 	{
-		path: "/micro-page1/*",
+		path: "/micro-page1",
 		name: "micro-page1",
 		component: () =>
 			import(/* webpackChunkName: "home" */ "./views/micro-page1.vue"),
 	},
 	{
-		path: "/micro-page2/*",
+		path: "/micro-page2",
 		name: "micro-page2",
 		component: () =>
 			import(/* webpackChunkName: "home" */ "./views/micro-page2.vue"),
