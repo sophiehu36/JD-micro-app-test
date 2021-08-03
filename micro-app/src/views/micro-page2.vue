@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>第二个子应用</h1>
+		<h1>第二个子页面</h1>
 	</div>
 </template>
 
