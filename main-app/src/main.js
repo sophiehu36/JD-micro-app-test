@@ -3,6 +3,9 @@ import VueRouter from 'vue-router'
 import microApp from '@micro-zoe/micro-app'
 import routes from './router'
 import App from './App.vue'
+import 'ant-design-vue/dist/antd.css';
+import { Button } from 'ant-design-vue';
+Vue.use(Button);
 
 // microApp.preFetch([{name: 'react16', url: 'http://localhost:3001/'}])
 // 向指定子应用'page1'发送数据

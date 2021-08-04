@@ -2,7 +2,8 @@
 	<div>
 		<h1>子应用主页</h1>
 		<p>数据传输：{{ microDataStr }}</p>
-		<button @click="handleSendData">向主应用发送数据{{ count }}</button>
+		<a-button type="primary" @click="handleSendData">向主应用发送数据{{ count }}
+    	</a-button>
 	</div>
 </template>
 

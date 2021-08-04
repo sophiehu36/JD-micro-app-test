@@ -1,7 +1,9 @@
 <template>
 	<div>
 		子应用容器
-		<button @click="changeData">发送数据</button>
+		<a-button type="primary" @click="changeData">
+      		发送数据
+    	</a-button>
 		<micro-app
 			name="page1"
 			url="http://localhost:4001/micro-app/page1/"

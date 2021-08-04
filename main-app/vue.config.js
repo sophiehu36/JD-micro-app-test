@@ -1,3 +1,4 @@
+// require('./color')
 const path = require("path");
 
 module.exports = {
