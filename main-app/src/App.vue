@@ -1,5 +1,6 @@
 <template>
 	<div id="app">
+		<button @click="changeTheme">变更主题</button>
 		主应用
 		<div>
 			<router-view />
@@ -15,6 +16,20 @@ export default {
 	components: {
 		HelloWorld,
 	},
+	methods: {
+		changeTheme(){
+			window.less.modifyVars({
+			'@primary-color': 'red !important'
+			})
+			.then(() => {
+			console.log('成功');
+			})
+			.catch((error) => {
+			alert('失败');
+			console.log(error);
+			});
+		}
+	}
 };
 </script>
 
