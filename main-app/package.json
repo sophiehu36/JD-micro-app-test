@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@micro-zoe/micro-app": "^0.2.2",
-    "ant-design-vue": "^1.7.6",
+    "ant-design-vue": "^1.7.7",
     "antd-theme-generator": "^1.2.6",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",

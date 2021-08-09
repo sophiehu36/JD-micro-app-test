@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import microApp from '@micro-zoe/micro-app'
 import routes from './router'
 import App from './App.vue'
-import 'ant-design-vue/dist/antd.css';
 import { Button } from 'ant-design-vue';
 Vue.use(Button);
 
