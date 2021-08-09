@@ -1,5 +1,3 @@
-require('./color')
-
 module.exports = {
   publicPath: '/micro-app/page1/',
   outputDir: 'page1',
